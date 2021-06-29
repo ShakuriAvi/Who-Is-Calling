@@ -11,14 +11,21 @@ There are different types of options in the app that I created:
 <summary> You can see what people are calling you on their phone.</summary>
 
 <!-- <img src="https://user-images.githubusercontent.com/65177459/108538582-a1a6b100-72e7-11eb-98ce-c2ab55f74157.jpg" width="350" height="500"> -->
+# Search Page: 
 
-<img src="https://user-images.githubusercontent.com/65177459/123824297-95220d00-d906-11eb-9413-3e2643373ec3.png" width="350" height="500">
+<img src="https://user-images.githubusercontent.com/65177459/123824875-15487280-d907-11eb-9365-1f4107ca7433.png" width="350" height="500">
 
+# Contact Not found
 
 <img src="https://user-images.githubusercontent.com/65177459/123824300-96ebd080-d906-11eb-97ed-e32b186cab2d.png" width="350" height="500">
 
+# Contact found
 
 <img src="https://user-images.githubusercontent.com/65177459/123824310-98b59400-d906-11eb-962e-d0e94b00a1e7.png" width="350" height="500">
 
+# Names Page:
+<img src="https://user-images.githubusercontent.com/65177459/123824297-95220d00-d906-11eb-9413-3e2643373ec3.png" width="350" height="500">
 
-<img src="https://user-images.githubusercontent.com/65177459/123824875-15487280-d907-11eb-9365-1f4107ca7433.png" width="350" height="500">
+# Show click:
+<img src="https://user-images.githubusercontent.com/65177459/123828263-00211300-d90a-11eb-8945-0b35c1b8f71b.png" width="350" height="500">
+
