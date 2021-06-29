@@ -1,7 +1,7 @@
 # Who-Is-Calling
 Implemented "ME" app for android platform, with firebase, Animation, notifications, services, etc.</br>
 The application works as follows: When a user installs the application, he receives a request for access to his contacts,</br>
-in order to take the contacts and save them in a database (i using in Firebase).In the first time that user connection to my App,</br> The user enters his name and numbers and after he confirm the permmision to take his contacts,</br>
+in order to take the contacts and save them in a database (i used in Firebase).In the first time that user connection to my App,</br> The user enters his name and numbers and after he confirm the permmision to take his contacts,</br>
 each contact add to database with the name of user.</br>
 Eventually a kind of network is created that each user gives information and receives information back.</br>
 There are different types of options in the app that I created:
