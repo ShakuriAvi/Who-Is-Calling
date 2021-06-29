@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blue"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/home_IMV_contactImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/contacts"
+
+        android:layout_centerHorizontal="true"
+      android:layout_alignParentTop="true">
+
+    </ImageView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/login_EDT_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name:"
+        android:textColorHint="@color/white"
+        app:boxBackgroundColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/home_IMV_contactImage"
+        android:paddingStart="80dp"
+        android:paddingEnd="80dp"
+        android:layout_centerInParent="true"
+        app:boxCornerRadiusTopEnd="12dp"
+        app:boxCornerRadiusTopStart="12dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/login_EDT_Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number:"
+        android:textColorHint="@color/white"
+        app:boxBackgroundColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/login_EDT_Name"
+        android:paddingStart="80dp"
+        android:paddingEnd="80dp"
+        android:layout_centerInParent="true"
+        app:boxCornerRadiusTopEnd="12dp"
+        app:boxCornerRadiusTopStart="12dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/login_BTN_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_EDT_Phone"
+        android:paddingStart="80dp"
+        android:paddingEnd="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/yellow"
+        android:text="Start"
+        app:cornerRadius="20dp">
+    </com.google.android.material.button.MaterialButton>
+</RelativeLayout>

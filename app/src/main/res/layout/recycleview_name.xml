@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    tools:cardCornerRadius="30dp"
+    tools:cardElevation="20dp">
+
+    <LinearLayout
+        android:id="@+id/recycleTeams_LAY_cover"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_margin="10dp"
+         android:background="@color/white"
+        android:orientation="horizontal">
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/recycleName_TXT_names"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:textColor="@color/blue"
+            android:text="name"/>
+         <TextView
+             android:id="@+id/recycleName_TXT_counts"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="0"
+             android:gravity="center"
+             android:layout_gravity="center"
+             android:textColor="@color/blue"
+             android:layout_weight="1"
+             android:textSize="30dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/recycleName_BTN_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/blue_light"
+            tools:cornerRadius="15dp"
+            android:text="Show"/>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

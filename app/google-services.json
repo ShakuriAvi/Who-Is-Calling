@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "982460721236",
+    "firebase_url": "https://who-is-calling-39f4b-default-rtdb.firebaseio.com",
+    "project_id": "who-is-calling-39f4b",
+    "storage_bucket": "who-is-calling-39f4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982460721236:android:bea74ba9656622a362a5c1",
+        "android_client_info": {
+          "package_name": "com.example.whoiscalling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982460721236-lr0dfla8mjo5jb6c4r7p3hp219ovevdl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0G6kVoiXbL8_MGGIFhGawriwXUEUDEKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982460721236-lr0dfla8mjo5jb6c4r7p3hp219ovevdl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
