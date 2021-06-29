@@ -4,7 +4,7 @@ The application works as follows:</br>When a user installs the application and o
 Thereafter The user receives a request for access to his contacts (the request is permission for read his contacts from phone),</br>in order to take the contacts and save them in a database (i used in Firebase).</br>
 After he confirm the permmision to take his contacts,</br>
 each contact from user's phone add to database with the name of user.</br>
-Eventually a kind of network is created that each user gives information and receives information back.</br>
+Eventually a kind of network is created that each user gives information and receives information back.</br></br>
 There are different types of options in the app that I created:
   <summary> When a number calls you, you are notified of the number and its name.</br> Use the service, we can receive alerts even when the app is closed.</summary>
   <summary> You can search for a specific cell phone number and know its name.</summary>
