@@ -9,7 +9,7 @@ There are different types of options in the app that I created:
   <summary> When a number calls you, you are notified of the number and its name.</summary>
   <summary> You can search for a specific cell phone number and know its name.</summary>
   <summary> You can see what people are calling you on their phone.</summary>
-
+</br>
 <!-- <img src="https://user-images.githubusercontent.com/65177459/108538582-a1a6b100-72e7-11eb-98ce-c2ab55f74157.jpg" width="350" height="500"> -->
 
 When the application is opened for the first time, a username and the user's cell phone number must be added.
