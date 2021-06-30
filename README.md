@@ -12,9 +12,14 @@ There are different types of options in the app:
 </br>
 <!-- <img src="https://user-images.githubusercontent.com/65177459/108538582-a1a6b100-72e7-11eb-98ce-c2ab55f74157.jpg" width="350" height="500"> -->
 
+# Register Page: 
+
 When the application is opened for the first time, a username and the user's cell phone number must be added.
 If the user has already entered his details, the application opens a page with the application icon in the center. 
 The icon moves with the help of animation which shakes and moves the icon in a circular rotation.
+
+
+<img src="https://user-images.githubusercontent.com/65177459/123913911-73b53580-d987-11eb-908f-273a59e0c60d.png" width="350" height="500">
 
 # Search Page: 
 
@@ -48,3 +53,5 @@ The user can check who contacts that called him in the different names, by click
 
 <img src="https://user-images.githubusercontent.com/65177459/123828263-00211300-d90a-11eb-8945-0b35c1b8f71b.png" width="350" height="500">
 
+# notification
+<img src="https://user-images.githubusercontent.com/65177459/123913889-6c8e2780-d987-11eb-8f56-ed60d6782177.png" width="350" height="500">
