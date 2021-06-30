@@ -87,8 +87,11 @@ public class MyService extends Service {
 
     private void startRecording() {
         Log.d("zzz","startRecording");
-        scheduleTimer();
+     //   scheduleTimer();
 
+        MyPhoneStateListener myPhoneStateListener =  new MyPhoneStateListener(this);
+        TelephonyManager telephonyManager = (TelephonyManager) getSystemService(TELEPHONY_SERVICE);
+        telephonyManager.listen(myPhoneStateListener, PhoneStateListener.LISTEN_CALL_STATE);
 
     }
     public void scheduleTimer() {

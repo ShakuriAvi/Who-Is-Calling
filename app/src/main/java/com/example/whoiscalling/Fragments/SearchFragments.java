@@ -81,7 +81,7 @@ public class SearchFragments  extends Fragment {
         ImageView dialog_IMV_statusIMV = dialog.findViewById(R.id.dialog_IMV_statusIMV);
         MaterialTextView dialog_TXT_Name = dialog.findViewById(R.id.dialog_TXT_Name);
         MaterialButton dialog_BTN_close = dialog.findViewById(R.id.dialog_BTN_close);
-        Log.d("ooo", String.valueOf(contact) + "" +contact.getNameOfMember());
+//        Log.d("ooo", String.valueOf(contact) + "" +contact.getNameOfMember());
         if(contact !=null && contact.getNameOfMember()!= null)
             dialog_TXT_Name.setText(contact.getNickName());
         else{

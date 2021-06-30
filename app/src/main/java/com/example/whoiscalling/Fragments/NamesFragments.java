@@ -80,24 +80,27 @@ public class NamesFragments extends Fragment {
 
     }
     private void showDialog(){
-        Dialog dialog = new Dialog(getContext());
-        dialog.setContentView(R.layout.layout_dialog);
-        ImageView dialog_IMV_statusIMV = dialog.findViewById(R.id.dialog_IMV_statusIMV);
-        MaterialTextView dialog_TXT_Name = dialog.findViewById(R.id.dialog_TXT_Name);
-        MaterialButton dialog_BTN_close = dialog.findViewById(R.id.dialog_BTN_close);
+
+
         //Log.d("ooo", String.valueOf(contact) + "" +contact.getNameOfMember());
         if(hashMapNames.size() == 0){
+            Dialog dialog = new Dialog(getContext());
+            dialog.setContentView(R.layout.layout_dialog);
+            ImageView dialog_IMV_statusIMV = dialog.findViewById(R.id.dialog_IMV_statusIMV);
+            MaterialTextView dialog_TXT_Name = dialog.findViewById(R.id.dialog_TXT_Name);
+            MaterialButton dialog_BTN_close = dialog.findViewById(R.id.dialog_BTN_close);
             dialog_IMV_statusIMV.setImageResource(R.drawable.zoom   );
             dialog_TXT_Name.setText("Not Fount Contacts for this Number");
+            dialog_BTN_close.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    dialog.dismiss();
+                }
+            });
+            dialog.show();
         }
 
-        dialog_BTN_close.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                dialog.dismiss();
-            }
-        });
-        dialog.show();
+
     }
     private void readSharedPreferences(){
         SharedPreferences prefs = getActivity().getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);

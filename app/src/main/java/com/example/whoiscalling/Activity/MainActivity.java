@@ -49,7 +49,7 @@ import static com.example.whoiscalling.MyService.START_FOREGROUND_SERVICE;
 import static com.example.whoiscalling.MyService.STOP_FOREGROUND_SERVICE;
 
 
-public class MainActivity extends BaseActivity {
+public class MainActivity extends AppCompatActivity {
     private static final int MY_PERMISSIONS_REQUEST_READ_PHONE_STATE = 1;
     private static final int MY_PERMISSIONS_REQUEST_PROCESS_OUTGOING_CALLS = 0;
     private static final int MY_PERMISSIONS_REQUEST_READ_CALL_LOG = 2;
