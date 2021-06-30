@@ -1,6 +1,7 @@
 # Who-Is-Calling
 Implemented "ME" app for android platform, with firebase, Animation, notifications, services, Permissions etc.</br>
-The application works as follows:</br>When a user installs the application and open in first time, he enters his name and numbers.</br>
+The application works as follows:</br>
+When a user installs the application and open in first time, he enters his name and numbers.</br>
 Thereafter The user receives a request for access to his contacts (the request is permission for read his contacts from phone),</br>
 in order to take the contacts and save them in a database (I used in Firebase).
 After he confirm the permmision to take his contacts,</br>
@@ -44,7 +45,7 @@ The message displayed when the contact is in the database.
 
 # Names Page:
 
-When the user is on the names page, he is presented with all the names he is called by in the contacts in the database
+When the user is on the names page, he is presented with all the names he is called by in the contacts in the database.
 
 <img src="https://user-images.githubusercontent.com/65177459/123824297-95220d00-d906-11eb-9413-3e2643373ec3.png" width="350" height="500">
 
@@ -54,7 +55,7 @@ The user can check who contacts that called him in the different names, by click
 
 <img src="https://user-images.githubusercontent.com/65177459/123828263-00211300-d90a-11eb-8945-0b35c1b8f71b.png" width="350" height="500">
 
-# notification
+# Notification
 
 The user receives two notification, first notification that the app run in the background phone and a second notification display who called him.
 
