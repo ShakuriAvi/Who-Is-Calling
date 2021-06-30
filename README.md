@@ -54,4 +54,7 @@ The user can check who contacts that called him in the different names, by click
 <img src="https://user-images.githubusercontent.com/65177459/123828263-00211300-d90a-11eb-8945-0b35c1b8f71b.png" width="350" height="500">
 
 # notification
+
+The user receives two notification, first notification that the app run in the background phone and a notification display who called him.
+
 <img src="https://user-images.githubusercontent.com/65177459/123913889-6c8e2780-d987-11eb-8f56-ed60d6782177.png" width="350" height="500">
