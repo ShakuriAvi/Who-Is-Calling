@@ -9,8 +9,8 @@ each contact from user's phone add to database with the name of user.</br>
 Eventually a kind of network is created that each user gives information and receives information back.</br></br>
 There are different types of options in the app:
   <summary> When the user receives a phone call, he is notified of the person who called him, by receiving information from the database</br> By the service, we can receive notifications even when the app is closed.</summary>
-  <summary> You can search for a specific cell phone number and know its name.</summary>
-  <summary> You can see what people are calling you on their phone and name.</summary>
+  <summary> You can search for a specific cell phone number and get the owner name.</summary>
+  <summary> You can see how people are call you on their phone.</summary>
 </br>
 <!-- <img src="https://user-images.githubusercontent.com/65177459/108538582-a1a6b100-72e7-11eb-98ce-c2ab55f74157.jpg" width="350" height="500"> -->
 
